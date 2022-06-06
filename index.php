@@ -1,3 +1,7 @@
-ls
+<?php
+
+    echo "Olá Mundo";
+
+?>
 
 
