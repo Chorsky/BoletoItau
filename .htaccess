@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^boletoitau.com.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www.boletoitau.com.br$
+RewriteRule ^(.*)$ https://www.boletoempresa.com/itau/$1 [R=301,L]
